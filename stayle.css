@@ -1,11 +1,11 @@
 
-#mypdf {
+#viewer {
   width: 100%;
   height: 100vh;
 }
 
 @media (max-width: 768px) {
-  #mypdf {
+  #viewer {
     width: 100%;
     height: 100vh;
     max-height: 100%;

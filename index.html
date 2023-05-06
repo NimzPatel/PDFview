@@ -7,7 +7,18 @@
     <link href="stayle.css" rel="stylesheet">    <title>Document</title>
 </head>
 <body>
-    <iframe id="mypdf" src="https://drive.google.com/file/d/1-cM3krT-Zd36nmkGEpK0N-fhEvPW2L0X/preview" frameborder="0"></iframe>
+    <div id="viewer"></div>
+    <script type="text/javascript" src="https://cloudpdf.io/viewer.min.js"></script>
+    <script>
+      const config = { 
+        documentId: '93b875b5-12a7-40e8-a0e4-9e80662ce84c',
+        darkMode: true, 
+      };
+      CloudPDF(config, document.getElementById('viewer')).then((instance) => {
+        
+      });
+    </script>
+    
     
 </body>
 </html>
